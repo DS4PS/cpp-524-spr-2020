@@ -4,7 +4,7 @@ title: Syllabus
 
 index:
     title: Foundations of Program Evaluation II
-    image: a-to-b-icon.jpg
+    image: experiment.png
     subtitle: Research design using quasi-experimental frameworks and counter-factual analysis.
     
 info: 
