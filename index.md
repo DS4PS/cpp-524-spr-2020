@@ -14,7 +14,7 @@ info:
  course_number: CPP 524 
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/29527'
- course_start_end_dates: Jan 13 to Mar 03, 2020  
+ course_start_end_dates: Jan 13 to March 03, 2020  
  course_prerequisites: College Level Intro. to Stats 
  class_meets_when:  Asynchronous  
  class_meets_where:  'https://asu.zoom.us/j/944016877'
