@@ -2,6 +2,10 @@
 
 xaringan package for remark.js slides + R
 
+https://arm.rbind.io/slides/xaringan.html#1
+
+
+
 ```r
 devtools::install_github('yihui/xaringan')
 devtools::install_github("gadenbuie/xaringanthemer")
