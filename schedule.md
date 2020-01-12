@@ -143,24 +143,21 @@ Lewis was influential in developing a rigorous formulation and language for coun
 
 Statistical reasoning used in evaluation draws upon **probabalistic determinism**, which tries to understand probabalistic relationships between events. 
 
-Truth statement: If you pay $800 to attend the Kaplan LSAT prep course, you will score above a 130 on your LSAT. 
+Truth statement: If you pay $800 to attend the Kaplan LSAT prep course, you WILL score above a 130 on your LSAT. 
 
-Probabalistic statement: If you pay $800 to attend the Kaplan LSAT prep course, the likelihood of scoring above a 130 on the LSAT will increase by 10 percent. 
+Probabalistic statement: If you pay $800 to attend the Kaplan LSAT prep course, the PROBABILITY of scoring above a 130 on the LSAT will increase by X points. 
 
 Statisticians use a conditional notation to represent the probabalistic representation of the counterfactual. We write a conditional probability as follows:
 
 ```
 Pr( A | B )
 ```
-The probability A occurs given we know that B has occured or is present as well. Then we augment this notation by incorporating the notion of "how the world would have been if the antecedent had obtained" using an intervention or a "treatment":
 
-<p style="text-align:center; font-size:1.2em">
-  
+This reads as probability that A occurs given that B has occured. Then we augment this notation by incorporating the notion of "how the world would have been if the antecedent had obtained" using an intervention or a "treatment":
+
 ```
 Pr( Y = TRUE | Treatment = TRUE ) - Pr( Y = TRUE | Treatment = FALSE )
 ```
-
-</p>
 
 Which is to say, the outcome observed in a world where they treatment does not occur represents the baseline reality, and the improvements in the outcome in a world where the treatment was administered can then be causally attributed to the treatment (*given a bunch of caveats*). The treatment takes the form of the difference between two groups. 
 
@@ -168,16 +165,19 @@ The formulation above as *Y=TRUE* implies that the outcome is discrete - the stu
 
 In cases where the outcome is continuous, such as income levels or wheat yield per acre, the notation would only be slightly different:
 
-<p style="text-align:center">
-  
 ```
-[ mean(X) | Treatment = TRUE ] - [ mean(X) | Treatment = FALSE ] 
+[ mean(Y) | Treatment = TRUE ] - [ mean(Y) | Treatment = FALSE ] 
 ```
 
-</p>
+Or more succinctly:
 
+```
+Y-bar{treatment} - Y-bar{control}
+OR
+Y(t) - Y(c)
+```
 
-Where the outcome is measured now as a difference of means instead of a change in probabilities of observing success. 
+The outcome is measured now as a difference of means instead of a change in probabilities of observing success. 
 
 The probabalistic nature of causal relationships in social science poses challenges to inference because we will almost always observe some differences in group means. The hard part is determining whether the observed differences are (1) meaningful and (2) causal. 
 
