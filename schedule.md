@@ -155,9 +155,11 @@ Pr( A | B )
 The probability A occurs given we know that B has occured or is present as well. Then we augment this notation by incorporating the notion of "how the world would have been if the antecedent had obtained" using an intervention or a "treatment":
 
 <p style="text-align:center; font-size:1.2em">
+  
 ```
 Pr( Y = TRUE | Treatment = TRUE ) - Pr( Y = TRUE | Treatment = FALSE )
 ```
+
 </p>
 
 Which is to say, the outcome observed in a world where they treatment does not occur represents the baseline reality, and the improvements in the outcome in a world where the treatment was administered can then be causally attributed to the treatment (*given a bunch of caveats*). The treatment takes the form of the difference between two groups. 
@@ -167,9 +169,11 @@ The formulation above as *Y=TRUE* implies that the outcome is discrete - the stu
 In cases where the outcome is continuous, such as income levels or wheat yield per acre, the notation would only be slightly different:
 
 <p style="text-align:center">
+  
 ```
 [ mean(X) | Treatment = TRUE ] - [ mean(X) | Treatment = FALSE ] 
 ```
+
 </p>
 
 
