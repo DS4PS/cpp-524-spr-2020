@@ -357,6 +357,8 @@ For example, if we have a simple study design with randomization and ensures gro
 Y = b0 + b1•Treat_Dummy + e
 ```
 
+Recall that **b0** will capture the average level of Y for the control group (the omitted category), and **b1** represents our hypothesis of interest, the gains we observe in the treatment group above and beyond the control group: **Y(t) - Y(c)**. The default null in regression models is always that the slope is equal to zero, so in this case that the group mean Y(t)-Y(c) is equal to zero, i.e. that there is no program effect. 
+
 What about the following table of group-level means in a separate study. What regression model do we need to run to determine program impact here? 
 
 ![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-plus-time.png)
