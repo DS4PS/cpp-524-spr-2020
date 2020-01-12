@@ -9,7 +9,10 @@ devtools::install_github("hadley/emo")
 devtools::install_github("ropenscilabs/icon")
 ```
 
-See example at https://github.com/jenniferthompson/RMedicine2018:
+See examples at 
+
+* https://github.com/jenniferthompson/RMedicine2018
+* https://github.com/mkearney/rtweet-workshop/blob/master/index.Rmd
 
 #### Setting themes
 
