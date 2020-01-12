@@ -400,6 +400,11 @@ b3: is there a difference between T2 and the counterfactual T2
 
 The coefficient b3 represents the statistical test of the difference between the observed outcome of the treatment group, and the expected outcome for that same group in the absence of the treatment. Which is exactly the test we wanted with exactly the comparison we wanted. 
 
+*A difference-in-difference framework used to estimate the pay gap during CEO transitions.*
+
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/pay-gap.png)
+
+
 ---
 
 This example is used because before you are familiar with the "difference-in-difference" model it should not be obvious how you go from the 2x2 table to a regression model. If you would run a simple model adding only a dummy variable for the treatment you would get entirely wrong inferences because you are pooling two time periods. If you were to subset the data to remove the first time period then run the model with a dummy for the treatment you would get biased estimates because you are not accounting for pre-treatment differences. 
