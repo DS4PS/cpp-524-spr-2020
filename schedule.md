@@ -511,7 +511,7 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 
 
-*** { @unit = "TUE Jan 21", @title = "Lab 01 - Counterfactual Reasoning with RCTs", @assignment, @foldout   }
+*** { @unit = "TUE Jan 21", @title = "LAB 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
