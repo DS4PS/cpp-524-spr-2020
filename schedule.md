@@ -429,7 +429,7 @@ The question is, **what is the null hypothesis in this experiment**?
 
 We would be naive to assume that if there is in fact no difference in taste that she will guess all 8 incorrectly. Since there are only two options for each cup she is almost certain to guess some of them correctly by pure chance. So how do we describe the state of the world where the taste of the tea is the same no matter which method is used to prepare it? How many does she need to get correct before we know that the outcome is unlikely driven by luck? 
 
-Read the following description of the problem set-up: https://en.wikipedia.org/wiki/Lady_tasting_tea
+Read the following description of the problem set-up: [The Lady Tasting Tea](https://en.wikipedia.org/wiki/Lady_tasting_tea)
 
 Consider a slightly easier problem. A friend tells you that he is psychic and can use his mind to see what is behind walls. You just so happen to be watching Let's Make a Deal, and they are playing the game with 3 doors that hide 2 goats and 1 car. The contestant picks a door and wins the prize behind it. 
 
@@ -457,7 +457,7 @@ Three cars in a row?
 
 At what point will you be convinced that he is psychic (or at least a good cheater)? How rare does the event need to be to provide sufficient evidence? 
 
-What do we expect the typical state of the world to be if he is not psychic? What happens if after five rounds he has guessed correctly four times and incorrectly one time? Is that enough evidence to prove his psychic abilities make him a better guesser than chance? What if it were forty times out of fifty? 
+What do we expect the typical state of the world to be if he is not psychic? What happens if after five rounds he has guessed correctly four times and incorrectly one time? Is that enough evidence to prove his psychic abilities make him a better guesser than chance? What if it were forty times out of fifty? Does that change our response?  
 
 What if there are only two doors and he guesses correctly three times in a row? 
 
@@ -465,13 +465,15 @@ What if there are only two doors and he guesses correctly three times in a row?
 (0.5)(0.5)(0.5) = 0.125
 ```
 
-There is now a 13% chance of observing that outcome instead of a 4% chance if there are three doors. Does that change our view? 
+There is now a 13% chance of observing that outcome instead of a 4% chance in the case with three doors and three correct guesses. Does that change our view? 
 
 ---
 
-The important insight is that when we expect that a program has no impact, or when a claim is false, we would not expect that the control group then outperform the treatment group, or that the treatment group would never do better than the control group. In most cases the null hypothesis represents a distribution of outcomes. Once we have selected a confidence level (our tolerance for a Type II error) the statistical test should tell us the critical value that will differentiate luck from meaningful differences. 
+The important insight is that when we expect that a program has no impact, or when a claim is false, we would not expect that the control group then outperform the treatment group, or that the treatment group would never do better than the control group. In most cases the null hypothesis represents a **distribution of expected outcomes in the absence of an effective program**. 
 
-When describing the state of the world where the treatment doesn't matter (tea tastes the same no matter which way you mix the milk) it is more likely that we observe some number of successes that occur by chance than no successes at all. Experiments are not as simple as, if she can't really tell the difference she won't get any correct. 
+Once we have selected a confidence level (our tolerance for a Type II error) the statistical test should tell us the critical value that will differentiate luck from meaningful differences. 
+
+When describing the state of the world where the treatment doesn't matter (tea tastes the same no matter which way you mix the milk) it is more likely that we observe some number of successes that occur by chance (2 out of 8 correct) than no successes at all. Experiments are not as simple as, if she can't really tell the difference she won't get any correct. 
 
 We must convert our counterfactual view of the world into a meaningful null hypothesis that describes a set of outcomes that fail to support our theory of interest (the program works) and a set of outcomes that supports our theory (those unlikely to occur through chance if the program has no impact).
 
@@ -482,6 +484,28 @@ More generally we need to think about what patterns in data we expect to see if 
 <br>
 
 
+*** { @unit = "", @title = "On Validity and Murder Mysteries", @lecture, @foldout  }
+
+<br>
+
+## The Strength of Evidence
+
+CPP 524 is a course on research design. It might sound either straight-forward (you just create a treatment and control group and call it a day), or tedious. 
+
+I suspect that by the end of the semester you will find the topic to be quite fun if you approach it the right way. Research design and external review of other's research design can in fact be quite tedious because there are a lot of details to keep track of, and you will **_always_** have deficiencies in research design that prevent you from being 100% certain the results can be trusted. 
+
+Rather, this course is meant to help you develop a qualitative notion of the strength of evidence. Not all evaluations are the same. Some provide robust and trustworthy estimates of program impact, and some provide noisy and indeterminate statistics where it is unclear what they actually represent. 
+
+## Internal Validity as a Murder Mystery
+
+**Internal validity** is the term we use to measure whether our research design sufficient to say with confidence that changes we observe in the data are a result of the program only. In other words, having strong internal validity requires that we must eliminate all of the other salient competing hypotheses that offer an alternative explanation to the observed changes in the data. 
+
+We can treat this exercise as a murder mystery. Who created the changes in the data? Our leading theory is that the program did it, but we also must eliminate all of the other suspects. 
+
+We will use a check-list approach that we call a **Campbell Score** (a ten-item scale) to practice reading research critically to look for holes in design. You will also use the tool to create a research design for a program of your choice, and think through which competing explanations you should be aware of in your study. 
+
+<br>
+<br>
 
 
 
