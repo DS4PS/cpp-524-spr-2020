@@ -228,7 +228,7 @@ Lab-01 Regression Review covers the following topics:
 * Residuals 
 * Explained variance 
 
-![](assets/img/RCT-group-design.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/RCT-group-design.png)
 
 
 
@@ -351,13 +351,13 @@ Y = b0 + b1•Treat_Dummy + e
 
 What about the following table of group-level means in a separate study. What regression model do we need to run to determine program impact here? 
 
-![](assets/img/treat-control-with-time.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-with-time.png)
 
 What is our counterfactual group in this case? How do we capture that group in the model? The result is very clever, but not necessarily obvious. The counterfactual should describe what the world would look like if the treatment group had not received the treatment. 
 
 One challenge here is the control group is different than the treatment group, so we cannot just compare the means of the two groups after the program. We are actually going to use the treatment group prior to treatment as the reference. But we know from the control group that we can expect gains independent of the treatment (secular trends). So we create the counterfactual as follows:
 
-![](assets/img/treat-control-with-time-2.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-with-time-2.png)
 
 ```
 A = pre-treatment group mean
