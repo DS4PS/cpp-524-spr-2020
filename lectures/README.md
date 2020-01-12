@@ -9,6 +9,7 @@ devtools::install_github("hadley/emo")
 devtools::install_github("ropenscilabs/icon")
 ```
 
+See example at https://github.com/jenniferthompson/RMedicine2018:
 
 #### Setting themes
 
@@ -30,7 +31,6 @@ mono_light(
 #### Example title slide
 
 ````
-```
 ---
 title: "The Life & Times of a Reproducible Clinical Project in R"
 author: "Jennifer L Thompson, MPH<br><span style = 'font-size: 50%;'>Vanderbilt University Medical Center<br>Department of Biostatistics + Center for Critical Illness, Brain Dysfunction & Survivorship</span>"
@@ -47,5 +47,4 @@ output:
     includes:
       in_header: header.html
 ---
-```
 ````
