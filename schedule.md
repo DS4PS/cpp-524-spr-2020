@@ -228,7 +228,7 @@ Lab-01 Regression Review covers the following topics:
 * Residuals 
 * Explained variance 
 
-![](assets/img/RCT-group-design.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/RCT-group-design.png)
 
 
 
@@ -351,13 +351,13 @@ Y = b0 + b1•Treat_Dummy + e
 
 What about the following table of group-level means in a separate study. What regression model do we need to run to determine program impact here? 
 
-![](assets/img/treat-control-with-time.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-with-time.png)
 
 What is our counterfactual group in this case? How do we capture that group in the model? The result is very clever, but not necessarily obvious. The counterfactual should describe what the world would look like if the treatment group had not received the treatment. 
 
 One challenge here is the control group is different than the treatment group, so we cannot just compare the means of the two groups after the program. We are actually going to use the treatment group prior to treatment as the reference. But we know from the control group that we can expect gains independent of the treatment (secular trends). So we create the counterfactual as follows:
 
-![](assets/img/treat-control-with-time-2.png)
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/treat-control-with-time-2.png)
 
 ```
 A = pre-treatment group mean
@@ -405,6 +405,66 @@ The coefficient b3 represents the statistical test of the difference between the
 This example is used because before you are familiar with the "difference-in-difference" model it should not be obvious how you go from the 2x2 table to a regression model. If you would run a simple model adding only a dummy variable for the treatment you would get entirely wrong inferences because you are pooling two time periods. If you were to subset the data to remove the first time period then run the model with a dummy for the treatment you would get biased estimates because you are not accounting for pre-treatment differences. 
 
 These connundrums are at the heart of counterfactual reasoning, the primary method at the core of inferential statistics. You will get lots of practice with the reasoning component of counterfactual models in Program Eval II (CPP 524) and practice translating from robust reasoning to model specification in Program Eval III (CPP 525). 
+
+---
+
+One of the first known randomizec control trials was described by Sir Ronald Fisher. While socializing with a group a friends a woman made the claim that tea always tastes better when the tea is poured into the milk rather than when milk is poured into the tea. At first blush there is no rational basis for this claim, so many in the group were rightly skeptical and believed it was psychological effect. Fisher, a rising star in statistics, quickly devised a way to test whether she could actually differentiate between the two conditions by having her taste 8 cups of tea, four of which has been prepared by pouring the milk into the tea, and four by pouring the tea into the milk. The preparation was done out of sight so she was left to rely on the taste of the tea only to guess which were which. 
+
+The question is, **what is the null hypothesis in this experiment**? 
+
+We would be naive to assume that if there is in fact no difference in taste that she will guess all 8 incorrectly. Since there are only two options for each cup she is almost certain to guess some of them correctly by pure chance. So how do we describe the state of the world where the taste of the tea is the same no matter which method is used to prepare it? How many does she need to get correct before we know that the outcome is unlikely driven by luck? 
+
+Read the following description of the problem set-up: https://en.wikipedia.org/wiki/Lady_tasting_tea
+
+Consider a slightly easier problem. A friend tells you that he is psychic and can use his mind to see what is behind walls. You just so happen to be watching Let's Make a Deal, and they are playing the game with 3 doors that hide 2 goats and 1 car. The contestant picks a door and wins the prize behind it. 
+
+![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/goat-car-goat.png)
+
+If your friend correctly guesses the position of the car in the first round, what is the likelihood of that happening by chance? He has a one in three chance of guessing by luck on the first try. 
+
+```
+Pr( selected door = car ) = 0.33
+```
+
+So there is a 33% chance he is delusional but able to fool people.
+
+What about guessing two cars in a row? 
+
+```
+Pr( door = car : round 1 ) & Pr( door = car: round 2 ) = (0.33)(0.33) = 0.11
+```
+
+Three cars in a row? 
+
+```
+(0.33)(0.33)(0.33) = 0.037
+```
+
+At what point will you be convinced that he is psychic (or at least a good cheater)? How rare does the event need to be to provide sufficient evidence? 
+
+What do we expect the typical state of the world to be if he is not psychic? What happens if after five rounds he has guessed correctly four times and incorrectly one time? Is that enough evidence to prove his psychic abilities make him a better guesser than chance? What if it were forty times out of fifty? 
+
+What if there are only two doors and he guesses correctly three times in a row? 
+
+```
+(0.5)(0.5)(0.5) = 0.125
+```
+
+There is now a 13% chance of observing that outcome instead of a 4% chance if there are three doors. Does that change our view? 
+
+---
+
+The important insight is that when we expect that a program has no impact, or when a claim is false, we would not expect that the control group then outperform the treatment group, or that the treatment group would never do better than the control group. In most cases the null hypothesis represents a distribution of outcomes. Once we have selected a confidence level (our tolerance for a Type II error) the statistical test should tell us the critical value that will differentiate luck from meaningful differences. 
+
+When describing the state of the world where the treatment doesn't matter (tea tastes the same no matter which way you mix the milk) it is more likely that we observe some number of successes that occur by chance than no successes at all. Experiments are not as simple as, if she can't really tell the difference she won't get any correct. 
+
+We must convert our counterfactual view of the world into a meaningful null hypothesis that describes a set of outcomes that fail to support our theory of interest (the program works) and a set of outcomes that supports our theory (those unlikely to occur through chance if the program has no impact).
+
+More generally we need to think about what patterns in data we expect to see if the program is having an impact, and what patterns we expect to see if it is not. Having these things in mind will help you identify the best models that capture your research question most precisely. 
+
+
+<br>
+<br>
 
 
 
