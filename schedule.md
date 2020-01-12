@@ -490,11 +490,11 @@ More generally we need to think about what patterns in data we expect to see if 
 
 ## The Strength of Evidence
 
-CPP 524 is a course on research design. It might sound either straight-forward (you just create a treatment and control group and call it a day), or tedious. 
+CPP 524 is a course on research design. It might sound either straight-forward (you just create a treatment and control group and call it a day), or tedious. I suspect that by the end of the semester you will find the topic to be quite fun if you approach it the right way. 
 
-I suspect that by the end of the semester you will find the topic to be quite fun if you approach it the right way. Research design and external review of other's research design can in fact be quite tedious because there are a lot of details to keep track of, and you will **_always_** have deficiencies in research design that prevent you from being 100% certain the results can be trusted. 
+Research design and external review of other's research design can in fact be quite tedious because there are a lot of details to keep track of. You will _always_ have deficiencies in research design that prevent you from being 100% certain the results can be trusted, and it can be mentally taxing to weigh the evidence and decide whether you buy the results. 
 
-Rather, this course is meant to help you develop a qualitative notion of the strength of evidence. Not all evaluations are the same. Some provide robust and trustworthy estimates of program impact, and some provide noisy and indeterminate statistics where it is unclear what they actually represent. 
+Whereas last semester we learned about using regression models to estimate the size of a slope, this course is meant to help you develop a qualitative notion of the strength of evidence. Not all evaluations are the same. Some provide robust and trustworthy estimates of program impact, and some provide noisy and indeterminate statistics where it is unclear what they actually represent. Statistical signifance tells us the likelihood that the model slope differs from the model null, but it does not tell us if the null is a reasonable counterfactual and adequate steps have been taken to remove bias. Those both occur at the design phase, not the at the point of model estimation. 
 
 ## Internal Validity as a Murder Mystery
 
