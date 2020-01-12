@@ -257,7 +257,7 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 
 
-*** { @unit = "", @title = "Counterfactual Reasoning", @reading, @foldout  }
+*** { @unit = "", @title = "Counterfactual Reasoning", @lecture, @foldout  }
 
 <br>
 
@@ -328,7 +328,7 @@ We will spend a lot of time this semester looking at program effects, how we can
 
 
 
-*** { @unit = "", @title = "Null Hypotheses", @reading, @foldout  }
+*** { @unit = "", @title = "Null Hypotheses", @lecture, @foldout  }
 
 <br>
 
