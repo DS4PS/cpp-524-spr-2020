@@ -502,7 +502,7 @@ Whereas last semester we learned about using regression models to estimate the s
 
 We can treat this exercise as a murder mystery. Who created the changes in the data? Our leading theory is that the program did it, but we also must eliminate all of the other suspects. 
 
-We will use a check-list approach that we call a **Campbell Score** (a ten-item scale) to practice reading research critically to look for holes in design. You will also use the tool to create a research design for a program of your choice, and think through which competing explanations you should be aware of in your study. 
+We will use a check-list approach that we call a **Campbell Score**, which is a list of the ten most common competing hypotheses that weaken internal validity. We will use the check-list to practice reading research critically to look for holes in design. You will also use the tool to create a research design for a program of your choice, and think through which competing explanations you need to neutralize if you want your results to be compelling.  
 
 <br>
 <br>
@@ -511,7 +511,7 @@ We will use a check-list approach that we call a **Campbell Score** (a ten-item 
 
 
 
-*** { @unit = "TUE Jan 21", @title = "Lab 01", @assignment, @foldout   }
+*** { @unit = "TUE Jan 21", @title = "Lab 01 - Counterfactual Reasoning with RCTs", @assignment, @foldout   }
 
 
 ## Lab 01 - Counterfactual Reasoning with RCTs
