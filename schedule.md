@@ -239,7 +239,7 @@ Lab-01 Regression Review covers the following topics:
 
 ### Required:
 
-*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.*
+*Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://siteresources.worldbank.org/EXTHDOFFICE/Resources/5485726-1295455628620/Impact_Evaluation_in_Practice.pdf)]
 * Chapter 3. Causal Inference and Counterfactuals 
 * Chapter 4. Randomized Selection Methods  
 
