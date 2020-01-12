@@ -315,9 +315,17 @@ Y(t) - Y(c)
 
 The outcome is measured now as a difference of means instead of a change in probabilities of observing success. Thus, we typically care about the **Average Treatment Effects** because it is the easiest thing to measure (the average outcome for the treatment and control groups) and most succinct way to communicate program effectiveness in evaluation studies. 
 
-The probabalistic nature of causal relationships in social science poses challenges to inference because we will almost always observe some differences in group means. The hard part is determining whether the observed differences are (1) meaningful and (2) causal. 
+The probabalistic nature of causal relationships in social science poses challenges to inference because we will almost always observe some differences in group means. The hard part is determining whether the observed differences are (1) statistically meaningful, i.e. significant, (2) pragmatically meaningful, i.e. large enough effect sizes to warrant investments given a cost-benefit calculation and alternative program models we can fund, and (3) the relationship is causal (think back to the classroom size example where billions were spent reducing class sizes and most schools saw no improvements in test scores). 
 
 More so, the marginal nature of program success can pose a challenge to communicating program impact to funders, stakeholders, or the general population. Should we be excited about a 1% increase in an outcome? If we are talking test scores in school, probably not. If we are talking growth in the US economy, that is a huge impact that equates to hundreds of billions of dollars, so yes!
+
+More so, if we observe that the program results in a 10% change the REALLY important question is whether it is a change in a stock of a value or a flow of a value? This difference radically changes the interpretation of a model coefficient because a change in a stock is a one-time bump and a change in a flow compounds over time rather quickly: 
+
+![](https://www.mercatus.org/sites/default/files/beach_and_de_rugy_years_to_double_gdp-chart_copy_0.png)
+
+For example, when we look at how data analytics can be used to "moneyball" businesses, political campaigns and government we find that things like predicting a profitable new product can result in short-term gains in market share (a stock measure). Investments in data warehouse capacity and building data-driven management practices can impact efficiency and rates of growth, thus compounding benefits over time. This was essentially the story we see in the *Good to Great* companies popularized by Jim Collins. 
+
+![](https://i1.wp.com/www.themastermindwithin.com/wp-content/uploads/2017/11/good-to-great-companies.gif?resize=585%2C319&ssl=1)
 
 We will spend a lot of time this semester looking at program effects, how we can identify them, and how we can contextualize them to understand not just whether our results are statistically significant, but whether they are practically important as well. 
 
