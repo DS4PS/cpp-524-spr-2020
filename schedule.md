@@ -137,6 +137,51 @@ How do we assign a truth value to a counterfactual statement?  The most systemat
  
 *Encyclopedia of Social Science Research Methods, edited by Michael Lewis-Beck (University of Iowa), Alan Bryman (Loughborough University), and Tim Futing Liao.  Sage Publications.*
 
+**Some Things to Consider:**
+
+Lewis was influential in developing a rigorous formulation and language for counterfactual reasoning. Note that he was a philosopher, so he drew heavily upon logic to build a framework, and thus you see emphasis on if-then conditions and **truth statements**. 
+
+Statistical reasoning used in evaluation draws upon **probabalistic determinism**, which tries to understand probabalistic relationships between events. 
+
+Truth statement: If you pay $800 to attend the Kaplan LSAT prep course, you will score above a 130 on your LSAT. 
+
+Probabalistic statement: If you pay $800 to attend the Kaplan LSAT prep course, the likelihood of scoring above a 130 on the LSAT will increase by 10 percent. 
+
+Statisticians use a conditional notation to represent the probabalistic representation of the counterfactual. We write a conditional probability as follows:
+
+```
+Pr( A | B )
+```
+The probability A occurs given we know that B has occured or is present as well. Then we augment this notation by incorporating the notion of "how the world would have been if the antecedent had obtained" using an intervention or a "treatment":
+
+<p style="text-align:center; font-size:1.2em">
+```
+Pr( Y = TRUE | Treatment = TRUE ) - Pr( Y = TRUE | Treatment = FALSE )
+```
+</p>
+
+Which is to say, the outcome observed in a world where they treatment does not occur represents the baseline reality, and the improvements in the outcome in a world where the treatment was administered can then be causally attributed to the treatment (*given a bunch of caveats*). The treatment takes the form of the difference between two groups. 
+
+The formulation above as *Y=TRUE* implies that the outcome is discrete - the student got into college, the patient survived the surgery, or the parolee did not return to prison in 12 months. 
+
+In cases where the outcome is continuous, such as income levels or wheat yield per acre, the notation would only be slightly different:
+
+<p style="text-align:center">
+```
+[ mean(X) | Treatment = TRUE ] - [ mean(X) | Treatment = FALSE ] 
+```
+</p>
+
+
+Where the outcome is measured now as a difference of means instead of a change in probabilities of observing success. 
+
+The probabalistic nature of causal relationships in social science poses challenges to inference because we will almost always observe some differences in group means. The hard part is determining whether the observed differences are (1) meaningful and (2) causal. 
+
+More so, the marginal nature of program success can pose a challenge to communicating program impact to funders, stakeholders, or the general population. Should we be excited about a 1% increase in an outcome? If we are talking test scores in school, probably not. If we are talking growth in the US economy, that is a huge impact that equates to hundreds of billions of dollars, so yes!
+
+We will spend a lot of time this semester looking at program effects, how we can identify them, and how we can contextualize them to understand not just whether our results are statistically significant, but whether they are practically important as well. 
+
+
 <br>
 <br>
 
