@@ -510,7 +510,7 @@ Read: *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodolog
 
 Answer the questions in the word document: 
 
-[Lab-01 Instructions](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/labs/Lab-01-Regression-Review.docx)
+[Lab-01 Instructions](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/lab-01-instructions.docx)
 
 Save it using the naming convention:
 
