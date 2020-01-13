@@ -3,7 +3,7 @@ layout: schedule
 title: Schedule
 
 canvas: 
-  assignment_url: 'https://canvas.asu.edu/courses/29527/assignments'
+  assignment_url: 'https://canvas.asu.edu/courses/41395/assignments'
   
 ---
  
@@ -174,62 +174,41 @@ And to get a flavor for debates around approaches to measuring program impact in
 
 
 
-
-
-
-
 *** { @unit = "", @title = "Unit Overview", @reading, @foldout  }
 
 ## Description 
 
-This section provides a review of the basic building blocks of a bivariate regression model:
+This section provides introduces the concept of a counterfactual reasoning. Key terms include: 
 
-* sample variance and standard deviation 
-* slope 
-* intercept 
-* regression line 
-* the "error term" or "residual"
-* standard errors 
+* randomized control trials (RCTs) 
+* average treatment effects 
+* internal validity 
+* null hypothesis 
+
 
 ## Learning Objectives
 
-Once you have completed this section you will be able to conceptually understand what a regression slope represents (the conditional mean), how residuals are created, and what the standard error is measuring. 
-
-
-## Data Used in this Section
-
-Caffeine and Heart Rates based off of this [caffeine study](https://www.theodysseyonline.com/caffeine-affect-heart-rate):
-
-```r
-url <- "https://raw.githubusercontent.com/DS4PS/cpp-523-fall-2019/master/lectures/data/caffeine.csv"
-dat <- read.csv( url, stringsAsFactors=F ) 
-summary( dat )
-plot( dat$caffeine, dat$heart.rate )
-model.01 <- lm( heart.rate ~ caffeine, data=dat )
-summary( model.01 )
-```
-
-## Lecture Materials
-
-Lecture: [ [Building a regression model](https://ds4ps.org/cpp-523-fall-2019/lectures/caffeine.html) ]
-
-Is caffeine good for you? [ [link](https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-depression-women-ascherio-lucas/) ]
-
-*Is caffeine a treatment in this study? How do we know caffeine is the cause of the outcomes we see here?*
+Once you have completed this section you will be able to identify and  
 
 
 
 ## Lab Preview 
 
-Lab-01 Regression Review covers the following topics:
+For Lab-01 you will read an example of a Randomized Control Trial used to study a nutrition and early childhood education program in Columbia. The lab asks for you to report on features of the research design and identify core concepts in the study:
 
-* Regression slopes 
-* Intercept 
-* Residuals 
-* Explained variance 
+* The control group 
+* The program theory 
+* The treatment 
+* Treatment versus study time-frames 
+* Confounding factors 
 
-![](https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/assets/img/RCT-group-design.png)
 
+*Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/evaluation-in-practice-CH5-pre-post-with-control.pdf)]
+
+
+<br>
+<br>
 
 
 
@@ -242,8 +221,6 @@ Lab-01 Regression Review covers the following topics:
 *Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). Impact evaluation in practice. The World Bank.* [[pdf](https://siteresources.worldbank.org/EXTHDOFFICE/Resources/5485726-1295455628620/Impact_Evaluation_in_Practice.pdf)]
 * Chapter 3. Causal Inference and Counterfactuals 
 * Chapter 4. Randomized Selection Methods  
-
-
 
 
 
@@ -520,21 +497,18 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 This lab covers the following topics: 
 
-* Calculating a bivariate regression slope (**`b1`**)
-* Basic interpretation of the slope
-* Intercept (**`b0`**)
-* What is a residual?
-  - residual (or error) sum of squares
-  - regression (or explained) sum of squares 
-* R-squared: the measure of variance explained 
+* Randomization processes 
+* Complex control groups  
+* Program "treatment" 
+* Theory of change 
 
 -----
 
-Read Chapter 5 of *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.*
+Read: *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.* 
+* CH-05: Improving Cognitive Ability in Chronically Deprived Children [[pdf](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/evaluation-in-practice-CH5-pre-post-with-control.pdf)] 
 
 
-
-For THIS ASSIGNMENT all of the work is done by hand so you can type your answers right into the attached word document:
+Answer the questions in the word document: 
 
 [Lab-01 Instructions](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/labs/Lab-01-Regression-Review.docx)
 
@@ -542,15 +516,12 @@ Save it using the naming convention:
 
 Lab-##-LastName.doc
 
-And submit via Canvas. Please show your work (include the basic steps for each calculation).
+And submit via Canvas. 
 
-For future assignments we will be using R Markdown documents so that you can run models and submit the results directly. 
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41395/assignments/955651">Submit Lab-01</a>
 
-Since this is meant as a review (or getting up to speed) assignment it is due Monday. You will, however, have a full week for subsequent labs. 
-
-If you have questions, please post them to the [Assignment Discussion Board](https://ds4ps.org/cpp-523-fall-2019/help/).
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/745249">Submit Lab-01</a>
+<br>
+<br>
 
 
 
@@ -565,69 +536,31 @@ If you have questions, please post them to the [Assignment Discussion Board](htt
 
 
 
+** Week 2 - Varieties of the Counterfactual  
 
-** Week 2 - Effect Size and Confidence Intervals 
-
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
+*** { @unit = "", @title = "Unit Overview", @reading }
 
 ## Description 
 
-This week covers the topic of building confidence intervals around our estimates of program impact. We use the CIs to conduct hypothesis-testing to see if our program has the impact we expected. 
-
-* Confidence intervals are built using standard errors 
-* Standard errors are creaed from residuals 
-* Residuals are generated through regression models (as we learned last week). 
 
 ## Learning Objectives
 
-Once you have completed this section you should be able to build a confidence interval around a slope estimate of program impact, and interpret a table with several regressions. 
 
 ## Lecture Materials
 
-Please review the following lecture notes:
-
-* [Variance and Covariance](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-01-variance-covariance-slope.pdf)
-* [Partitioning the Variance of Y](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-02-partitioning-variance.pdf)
-* [Standard Errors](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-03-standard-errors.pdf)
-* [Confidence Intervals](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-04-confidence-intervals.pdf)
-* [Effect Size](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-05-program-impact.pdf)
-
-You might find this summary of notation helpful [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Common-Statistics-Notation.pdf)
 
 ## Assigned and Recommended Articles or Chapters
-
-There are no assigned readings this week. 
 
 
 ## Key Take-Aways 
 
-The lecture notes in this section cover the mechanics of standard errors and confidence intervals. These two important topics can be summed up in these animations of the sampling distribution of the mean.
-
-Our model estimate for the slope is our best guess of the real statistic. It will always be pretty good, but not exact.
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/reg_sample_orange.gif)
-
-<br>
-
-If we would repeatedly draw samples from a population and calculate slope estimates over and over, they would look like the distribution on the right. The "standard error" describes the average amount all of these guesses (statistics) are off from the true slope. 
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/sampling_dist_slope_50.gif)
-
-
-<br>
-
-If we create confidence intervals around these guesses, we can see that 95 out of 100 of the CIs will contain the true slope (set to 3 here). 
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/confidence%20intervals%202.gif)
-
-<br>
 <br>
 <br>
 
 
 
 
-*** { @unit = "FRI Aug-30", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "FRI Jan 24th", @title = "News Article Post", @assignment }
 
 
 This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
@@ -638,7 +571,7 @@ This mini-assessment consists of four multiple-choice questions. You have thirty
 
 
 
-*** { @unit = "MON Sept-02", @title = "Lab 02", @assignment, @foldout  }
+*** { @unit = "TUES Jan 28th", @title = "Lab 02", @assignment }
 
 
 <br>
@@ -646,18 +579,12 @@ This mini-assessment consists of four multiple-choice questions. You have thirty
 
 # Lab 02
 
-This lab introduces a case study on education policy that we will be using for the remainder of the semester to demonstrate the importance and impact of control variables, and consequences of their omissions.
-
-You will need the formula for confidence intervals, and the concept of visual hypothesis-testing with coefficient plots. 
-
-* [Confidence Intervals](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-04-confidence-intervals.pdf)
-* [Effect Size (+hypothesis tests)](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-05-program-impact.pdf)
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-02-class-size-confidence-intervals.html">Lab-02 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/753697">Submit Lab-02</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -669,55 +596,34 @@ When you are complete:
 
 
 
-** Week 3 - Control Variables 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
+
+
+** Week 3 - Effect Size 
+
+*** { @unit = "", @title = "Unit Overview", @reading}
 
 ## Description 
 
-This lecture introduces you to two distinctive types of control variables, and how the different ways they change our models. We will also start using Ballentine Venn Diagrams to compare models. 
 
 ## Learning Objectives
 
-Once you have completed this section you will be able to explain how adding specific control variables to a model (or leaving them out) will impact (1) the slopes and (2) the standard error of your model. 
 
 
 ## Assigned and Recommended Articles or Chapters
 
 ### Required:
 
-None. 
+
 
 ## Lecture Materials
 
-[Lecture 06 on Control Variables](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-06-control-variables.pdf)
 
 
 
 
 
-
-*** { @unit = "FRI Sept-06", @title = "Mini-Assessment", @assignment, @foldout   }
-
-<br>
-<br>
-
-This mini-assessment tests your understanding of the interpretation of [statistical significance using confidence intervals](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-05-program-impact.pdf).
-
-
-![](assets/img/ci-and-significance.png)
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/220511">Start the Mini-Assessment</a>
-
-<br>
-<br>
-
-
-
-
-
-
-*** { @unit = "MON Sept-09", @title = "Lab 03", @assignment, @foldout  }
+*** { @unit = "TUE Feb 4th", @title = "Lab 03", @assignment  }
 
 
 <br>
@@ -725,17 +631,12 @@ This mini-assessment tests your understanding of the interpretation of [statisti
 
 # Lab 03
 
-This lab introduces the important role of control variables in our models. They can be used to reduce standard errors of the model and thus increase model efficiency, or they can be used to to adjust slopes in the model. The lab draws on material from the lecture 06 notes. 
-
-* [Control Variables](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-06-control-variables.pdf)
-
-I have provided the code for the regression models and scatterplots. This lab focuses on interpretation of results. You do need to create an RMD document, and knit an HTML file to submit your results. 
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-03-instructions.html">Lab-03 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/770250">Submit Lab-03</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -750,102 +651,44 @@ When you are complete:
 
 
 
-** Week 4 - Omitted Variable Bias 
+** Week 4 - Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout  }
+*** { @unit = "", @title = "Unit Overview", @reading }
 
 ## Description 
 
-This week introduces the concept of omitted variable bias, and how it can impact our inferences in observational studies. 
 
 ## Learning Objectives
-
-Once you have completed this section you should be able to:
-
-* identify variables the have the potential to cause omitted variable bias 
-* calculate the size of bias that results from omitting a variable from a study 
 
 
 ## Assigned and Recommended Articles or Chapters
 
 ### Required:
 
-'Crack baby' study ends with unexpected but clear result [ [link](https://www.inquirer.com/philly/health/20130721__Crack_baby__study_ends_with_unexpected_but_clear_result.html) ]
-
-* *A 1989 study in Philadelphia found that nearly one in six newborns at city hospitals had mothers who tested positive for cocaine. Troubling stories were circulating about the so-called crack babies. They had small heads and were easily agitated and prone to tremors and bad muscle tone, according to reports, many of which were anecdotal. Worse, the babies seemed aloof and avoided eye contact. Some social workers predicted a lost generation - kids with a host of learning and emotional deficits who would overwhelm school systems and not be able to hold a job or form meaningful relationships. The "crack baby" image became symbolic of bad mothering, and some cocaine-using mothers had their babies taken from them or, in a few cases, were arrested.*  
-
-The study in the article was commissioned because of anedcotal evidence of a strong relationship between exposure to crack in the womb and poor development of a child, cognitively and socially. 
-
-**If crack was the policy variable in this study, what was the omitted variable?** 
-
-**How did the understanding of the DIRECT impact of crack on child development change once the omitted variable was added to the models?** 
-
-**When are omitted variables a problem? What makes a variable a competing hypothesis?**  
-
 
 ## Lecture Materials
 
-Lecture Notes: **Omitted Variable Bias** [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-07-omitted-variable-bias.pdf) ]  
-Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
-
-<br>
-
-![](lectures/figures/taxonomy-of-controls-01.png)  
-
-<br>
-
-![](lectures/figures/taxonomy-of-controls-02.png)  
-
-<br>
-<br>
 
 
 
 
 
 
-*** { @unit = "FRI Sept-13", @title = "Mini-Assessment", @assignment, @foldout   }
-
-<br>
-<br>
-
-This mini-assessment tests your understanding of the differences between the two types of control variables.
-
-![](assets/img/two-types-of-controls.png)
-
-[Control Variables](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-06-control-variables.pdf)
-
-<br>
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/222622">Start the Mini-Assessment</a>
 
 
-<br>
-<br>
-
-
-
-
-
-
-*** { @unit = "TUE Sept-17", @title = "Lab 04", @assignment, @foldout  }
+*** { @unit = "TUE Feb 11th", @title = "Lab 04", @assignment  }
 
 <br>
 <br>
 
 # Lab 04
 
-This lab examines the impact of omitted variable bias on our inferences. 
-
-[Omitted Variable Bias](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-07-omitted-variable-bias.pdf) 
-
-A lab solutions RMD template has been provided. Submit your knitted files via Canvas. 
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-04-instructions.html">Lab-04 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/780103">Submit Lab-04</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -855,59 +698,32 @@ When you are complete:
 
 
 
-** Week 5 - Dummy Variables: Revisiting Hypothesis Tests 
+** Week 5 - Effect Sizes 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout  }
+*** { @unit = "", @title = "Unit Overview", @reading  }
 
 <br>
 
 ## Description 
 
-This week introduces modeling group differences within the data using dummy variables and interaction terms.
 
-**Dummy variables** are binary 0/1 variables where 1 means the observation belongs to a group, 0 means the observation does not. We need one dummy variable for each level of a categorical variable. 
-
-`y = b0 + b1(X) + b2(D) + e`
-
-**Interactions** are created by multiplying a covariate by a dummy variable. 
-
-`y = b0 + b1(X) + b2(D) + b3(X)(D) + e`
-
-Adding dummy variables to models allows us to test several hypotheses about differences between groups. 
 
 ## Learning Objectives
 
-Once you have completed this section you will be able to run and interpret regression models with dummy variables and interaction effects. 
+
 
 
 ## Assigned Lecture Materials
 
-[Hypothesis-Testing With Groups](https://ds4ps.org/cpp-523-fall-2019/lectures/dummy-variables.html) 
 
 
 ## Lab Preview 
 
-[Practice Questions](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Regression%20with%20Interaction%20Effects.pdf)
-
-
-
-*** { @unit = "SUN Sept-22", @title = "Mini-Assessment", @assignment, @foldout  }
-
-<br>
-<br>
-
-This mini-assessment tests your understanding of the interpretation of the impact of control variables on statistical significance.
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/225183">Start the Mini-Assessment</a>
-
-<br>
-<br>
 
 
 
 
-
-*** { @unit = "TUES Sept-24", @title = "Lab 05", @assignment, @foldout  }
+*** { @unit = "TUE Feb 18th", @title = "Lab 05", @assignment }
 
 
 <br>
@@ -915,13 +731,12 @@ This mini-assessment tests your understanding of the interpretation of the impac
 
 # Lab 05
 
-This lab examines tests your understanding of constructing groups and conducting tests using dummy variables. 
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-05-instructions.html">Lab-05 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/791918">Submit Lab-05</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -937,38 +752,21 @@ When you are complete:
 
 
 
-** Week 6 - Specification
+** Week 6 - Theory of Change 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout  }
+*** { @unit = "", @title = "Unit Overview", @reading  }
 
 <br>
 <br>
 
 ## Description 
 
-This week introduces the concept of specification bias - various idiosyncracies of regression models such as outliers and functional forms that can introduce bias into the slope estimates. 
-
 ## Learning Objectives
-
-Once you have completed this section you will be able to:
-
-* Diagnose specification bias when it occurs 
-* Be able to identify outliers and conduct sensitivity analysis to check their impact 
-* Specify a quadratic model for non-linear relationships 
-* Interpret a logged regression 
-
-
 
 ## Lecture Materials
 
-Specification Bias I [ [html](https://ds4ps.org/cpp-523-fall-2019/lectures/specification-bias.html) ]  
-Specification Bias II [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-09-specification.pdf) ]  
-
-
-
 ## Lab Preview 
 
-For this lab you will run and interpret a quadratic regression, and interpret coefficients from a logged regression model. 
 
 <br>
 <br>
@@ -978,103 +776,20 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
-*** { @unit = "WED Oct-02", @title = "Lab 06", @assignment, @foldout  }
+*** { @unit = "TUE Feb 25th", @title = "Lab 06", @assignment }
 
 <br>
 <br>
 
 # Lab 06
 
-This lab gives you a chance to practice non-linear regression models. 
+
 
 <a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-06-instructions.html">Lab-06 Instructions</a>
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/808325">Submit Lab-06</a>
-
-<br>
-<br>
-
-
-
-*** { @unit = "", @title = "No Mini-Assessment This Week", @assignment  }
-
-
-
-
-
-
-** Week 7 - Review!
-
-
-
-*** { @unit = "", @title = "Review", @lecture, @foldout }
-
-<br>
-<br>
-
-Please post questions on the discussion board if you are not sure of the correct solutions for questions on lectures or practice exams. 
-
-[Exam Review with Solutions](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Review%20Material%20for%20the%20Final%20Exam%20-%20SOLUTIONS.pdf) 
-
-[Practice Exam](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Practice%20Exam.pdf)  
-
-[Taxonomy of Control Variables](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/taxonomy-of-control-variables.pdf)  
-
-[Indirect Effects Example](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/indirect-effect-example.pdf)  
-
-<br>
-<br>
-
-
-
-*** { @unit = "", @title = "The Seven Deadly Sins of Regression", @lecture, @foldout   }
-
-<br>
-<br>
-
- 
-Concise summary of the seven most common issues that will corrupt your regression inferences [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Seven-Sins-of-Regression-Analysis.pdf) ]  
-
-* Selection 
-* Omitted variable bias 
-* Measurement error 
-* Specification 
-* Group Heterogeneity 
-* Multi-collinearity 
-* Simultenaeity 
-
-Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/p-10-seven-sins-of-regression.pdf) ] 
-
-<br><br>
-
-
-*** { @unit = "", @title = "Measurement Error", @lecture, @foldout  }
-
-<br>
-<br>
-
-# The impact of measurement error
-
-## Measurement Error in the DV
-
-![](assets/img/measurement-error-in-dv-large.gif) 
-
-
-*Increase in standard errors. No slope bias.* 
-
-<br>
-
-## Measurement Error in the IV
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/measurement%20error%20iv.gif) 
-
-<br>
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/measurement%20error%20iv%202.gif) 
-
-*Attenuation of the slope (tilts toward zero), but also a decrease in standard errors that offset the shift of the slope toward zero.*
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -1085,20 +800,15 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 
 
-*** { @unit = "MON Oct 07", @title = "Mini-Assessment", @assignment, @foldout  }
+
+** Week 7 - Research Design Projects 
+
+
+
+*** { @unit = "", @title = "Review", @lecture }
 
 <br>
-<br>
 
-## Mini Assessment-05 
-
-This mini assessment covers material from the [Taxonomy of Controls](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/taxonomy-of-control-variables.pdf).
-
-And on [Measurement Error](https://ds4ps.org/cpp-523-fall-2019/schedule/). 
-
-It is recommended you complete it before you final exam to get a sense of the types of questions to expect. I have left it open all week, though, if you need extra time. 
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/232465">Mini Assessment 05</a>
 
 <br>
 <br>
@@ -1107,33 +817,30 @@ It is recommended you complete it before you final exam to get a sense of the ty
 
 
 
-** FINAL EXAM
 
-*** { @unit = "MON Oct 7 12pm AZ", @title = "Review Session", @lecture, @foldout }
-
-<br>
-<br>
-
-There will be a review session for the final exam at 12pm on Monday. It is a chance to bring questions from the practice exams and discuss material before taking the exam.
-
-Please post questions on the discussion board, or email me for a Zoom call if you want help before the exam. 
+*** { @unit = "MON Mar 2nd", @title = "Quiz", @assignment }
 
 <br>
 <br>
-
-*** { @unit = "Open Oct-07 to 12", @title = "Final Exam", @assignment, @foldout}
 
 
 <br>
 <br>
 
-You can start the exam any time between Monday and Saturday Oct 12th. You have 4 hours to complete the exam once it is started. 
 
-You are allowed to look back over your notes and use a calculator for help with math.
 
-You are NOT allowed to work together on the final exam. Do not discuss questions after you have take it. 
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/232776">Take the Final Exam</a>
+*** { @unit = "TUE Mar 3rd", @title = "Research Design Paper", @assignment }
+
+<br>
+<br>
+
+
+
+<br>
+<br>
+
+
 
 <br>
 <br>
