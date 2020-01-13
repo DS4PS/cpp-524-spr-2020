@@ -599,7 +599,7 @@ When you are complete:
 
 
 
-** Week 3 - Effect Size 
+** Week 3 - Campbell Scores 
 
 *** { @unit = "", @title = "Unit Overview", @reading}
 
@@ -651,7 +651,7 @@ When you are complete:
 
 
 
-** Week 4 - Campbell Scores 
+** Week 4 - More Campbell Scores 
 
 *** { @unit = "", @title = "Unit Overview", @reading }
 
