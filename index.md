@@ -75,86 +75,31 @@ em {
 
 # I.  Course Description, Course Goal and Course Learning Objectives:
 
-Regression serves as the foundation for modern quantitative program evaluation techniques, so this course establishes a baseline set of skills that will be extended in the next two sections. Regression analysis is not a single thing – it is a powerful set of tools used to examine relationships in data and test hypotheses concerning the significance of these relationships. Regression can be used to analyze observational data, in which case it can be used to identify important correlations that help us predict when events will occur together. In the program evaluation context we are specifically interested in causal analysis, which allows us to determine whether a management practice, a nonprofit or government program, or a specific public policy has a positive impact. When certain conditions are met we can use regression analysis to estimate the impact of a policy or program. This first course will build a foundational understanding of the mechanics of multiple regression, the proper interpretation of regression models, and the circumstances in which we can use regression results for causal reasoning.
+Modern quantitative evaluation techniques are built around counterfactual analysis, a process of understanding how the world changes due to an intervention or program. Counterfactual analysis requires the identification of a control group that represents the world in the absence of the intervention, a treatment group that represents the world after the intervention, and a comparison of the two to determine effect size associated with the program. The randomized control trial is a powerful form of counterfactual analysis, but it is also rare because it is usually expensive or unfeasible because of ethical or logistical constraints. As a result, evaluators have developed a collection of quasi-experimental designs to enable causal analysis in the absence of true experiments. Instead of leveraging randomization to create balanced treatment and control groups, the methods typically construct a comparison group in clever or careful processes in order to generate unbiased estimates of program impact. This course introduces students to the important concepts in research design and common quasi-experimental tools for causal analysis.  
 
-The five main learning objectives for the course are:
+The three main learning objectives for the course are:
 
-- The ability to run a multiple regression model and interpret the results.
-- Knowledge of how adding or removing control variables from a model will change the accuracy (bias) and precision (efficiency) of the model.
-- Knowledge of the causes and consequences of omitted variable bias, it&#39;s impact on causal analysis, and the circumstances in which we can interpret regression results as correlational or causal.
-- The ability to translate regression results to an articulation of program impact using effect sizes and confidence intervals to offer responsible evidence-based recommendations to managers and policy-makers.
-- Diagnosis of common specification problems in regression analysis such as outliers, nonlinearity, multi-collinearity, and measurement error.
-
+* Understand the tenants of counterfactual reasoning and potential weaknesses.
+* The ability to identify attrition and non-compliance considerations which shape how we interpret treatment effects (the treatment-on-the-treated calculation versus the intention-to-treat calculation). 
+* Ability to recognize or apply the three main research designs used to identify program effects: difference-in-difference models, reflexive models, and post-test only models. 
 
 
 ## Course Prerequisites:
 
-To be successful in this program you need some basic background in statistics including familiarity with the following topics:
-
-- Variable types – numeric, categorical, binary
-- Descriptive statistics such as the mean, median, mode, quantiles, and standard deviation
-- Scatterplots, bar charts, and histograms
-- Basic probability and sampling
-- Confidence intervals
-- Hypothesis testing
-
-### Intro Stats Review 
-
-If you need a refresher, you can try one of the free online statistics courses on Khan Academy, EdEx, Coursera, Udacity or other sites, or visit the OpenStax free [Introductory Statistics textbook](https://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de) and review:
-
-- Chapter 1 – Sampling Data
-- Chapter 2 – Descriptive Statistics
-- Chapter 8 – Confidence Intervals
-- Chapter 9 – Hypothesis Testing with One Sample
-- Chapter 10 – Hypothesis Testing with Two Samples
-- Chapter 12 – Linear Regression and Correlation
-
-### Basic Regression
-
-The **OpenIntro Statistics** textbook does a great job of covering regression using simple notation (see CH-08). 
-
-*Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro.*
-
-* Chapter 8 - Introduction to Linear Regression
-
-It is [free online](https://leanpub.com/openintro-statistics) through LeanPub.
-
-
-### Math
-
-This course utilizes algebra and some geometry, specifically the slope-intercept equation of a line:
-
-```
-y = mx + b
-```
-
-
-We will use basic probability, logarithms, and exponents, all at a high school level. We will NOT be using calculus, matrix algebra, or proofs for this course. 
-
-We will rely heavily on visual reasoning with the data, an intuitive understanding of regression mechanics, and a strong understanding of the interpretation of results, but for the most part we will rely on software for advanced mathematical calculations.
-
-**Sampling distribution of the slope**
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/sampling_dist_slope.gif)
+This course uses regression concepts covered in CPP 523. 
 
 
 
 
-# II. Assessment of Student Learning Performance &amp; Proficiency: Keys to Student Success
-
-Assessment of student performance in this course is based on indications that the course learning objectives stated above have been achieved.  Several areas of measurement will be used to produce a final student performance rating.  These areas of performance assessment include the following:
-
-- Knowledge of key concepts associated with regression models, the interpretation of program impact in quantitative studies, the mechanics of control variables, and the differentiation between correlational and causal analysis.
-- Ability to run and interpret program evaluation models by correctly specifying a multiple regression equation, diagnosing problems, and presenting findings to stakeholders.
-- Completed assignments are measured and assessed based on a demonstrated understanding of core regression concepts and the ability to clearly and accurately interpret model results.
+# II. Assessment of Student Learning Performance & Proficiency: Keys to Student Success
 
 Students will demonstrate competency in understanding, producing and communicating results of their analyses through the following assignments:
 
-- Short (1-5 question) assessments associated with lectures to ensure basic comprehension of key concepts and to help students and instructors track progress through the course.
 - Weekly labs that provide opportunities to consolidate and apply material from the lectures.
-- A final examination that tests mastery of the learning objectives above.
+- A mini examination that tests mastery of vocabulary and concepts from readings.
+- A research design project. 
 
-Assigned work including the course final exam are used to measure comprehension and skill; the student&#39;s course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflective of outstanding performance.  
+Assigned work including the exam are used to measure comprehension and skill; the student's course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflective of outstanding performance.  
 
 Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above) all assigned work should completed on time with careful attention to assignment details.
 
@@ -180,13 +125,7 @@ The purpose of all exams and assigned written work is also threefold: (1) the as
 
 ## B. Assigned Reading Materials
 
-There are two required texts for this course, both available online:
-
-### Needed for Lab-01 only:
-
-- Lewis-Beck, C., &amp; Lewis-Beck, M. (2015). _Applied Regression: An Introduction_ (Vol. 22). Sage publications.
-
-### For use in CPP 524: Foundations in Prog Eval II
+There is one assigned text for the class, which is available free online: 
 
 - Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., &amp; Vermeersch, C. M. J. (2011). _Impact Evaluation in Practice._ The World Bank. Washington. Available free online.
 
@@ -194,12 +133,8 @@ There are two required texts for this course, both available online:
 
 Each author approaches material in a slightly different way, so different textbooks work for different people. The following texts are recommended as good resources if you would like additional references:
 
-- Field, A., Miles, J., & Field, Z. (2012). Discovering statistics using R. Sage publications. 
 - Bailey, M. A. (2016). _Real Stats: Using Econometrics for Political Science and Public Policy_. Oxford University Press.
 - Bingham, R., &amp; Felbinger, C. (2002). _Evaluation in Practice: A Methodological Approach._ CQ Press.
-- Fox, J. (1991). _Regression diagnostics: An introduction_ (Vol. 79). Sage.
-- Berry, W. D., &amp; Feldman, S. (1985). _Multiple regression in practice_ (No. 50). Sage.
-- Cohen, J., Cohen, P., West, S. G., &amp; Aiken, L. S. (2013). _Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences_. Routledge.
 - William R.. Shadish, Cook, T. D., &amp; Campbell, D. T. (2002). _Experimental and quasi-experimental designs for generalized causal inference._ Wadsworth Cengage learning.
 - Cumming, G. (2013). _Understanding the New Statistics: Effect Sizes, Confidence Intervals, and Meta-Analysis_. Routledge.
 - Stock, J. H., &amp; Watson, M. W. (2007). _Introduction to Econometrics._
@@ -210,29 +145,30 @@ In addition to the required textbooks, the instructor will supplement the assign
 ## C.  Course Grading System for Assigned Work, including Final Exam:
 
 Your grade will be based on your performance in the following areas:
-
-- Short multiple choice assessments  
+ 
 - Weekly labs
-- Final exam
+- A short final exam
+- A final project 
 
 Letter grades comport with a traditional set of intervals:
 
-* 100 – 99% = A+ 
+* 100 – 99% = A+* 
 *  98 – 94% = A 
 *  93 – 90% = A- 
 *  89 – 87% = B+ 
 *  86 – 84% = B 
 *  83 – 80% = B-  
 
+\*A+ is given at the instructor's discretion. 
+
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Rapid Assessments (10%):** Some lecturse will be accompanied by a short (1-5 question) multiple choice or regression-based quiz. These are designed to ensure that you are grasping the important concepts associated with each lecture. The content in this class is cumulative, the material each week building upon the previous week. We cover complex topics with a lot of nuances, so you may feel uncomfortable if you don't understand everything from a lecture. Don't worry – we will revisit a lot of this material many times through the program to reinforce important ideas and introduce more detail in subsequent stages. These quizzes are designed to give you immediate feedback about whether you grasped the core concepts so that you can spend more time on some material or seek help when necessary.
+- **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab. 
 
-- **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab in case you get sick or busy. 
+- **Final Paper - Research Design (40%):**  You will design a hypothetical evaluation of a real-world program by applying concepts from this class. You do not need to collect and analyze data for the assignment, but you do need to provide background material on the program you decide to evaluate. Your grade will be based upon how complete the assignment is and how 
 
-- **Final Exam (40%):**  The course will close with a written final exam which will be comprehensive in nature. The exam will be an individual effort with no exceptions.  In no way shape or form should will it be permissible to discuss any aspect of the exam with anyone else; neither classmates nor anyone else should be consulted while students complete the exam. Notes and textbooks are permitted during the exam. It will be designed as a means of testing overall comprehension of key concepts and issues covered during the term, and as a check on course learning objectives being met.
+- **Final Exam (10%):**  The exam will be review of topics covered on the labs. It will test for key vocabular (like the difference between the Intention to Treat measure and the Treatment on the Treated measure), and concepts like tests for non-random attrition. 
 
-- **Review Sessions (0%):**  You will have the opportunity to participate in online review sessions designed to answer questions related to labs, review key concepts, and prepare for the final exam. New material will not be presented, but we will review content pertaining to assigned reading materials, video, or other similar materials provided. Students are encouraged to bring questions, respond to discussion topics that are provided, as well as responding meaningfully to other student responses. Participation is encouraged, but not required. 
 
 ## D. General Grading Rubric for Written Work
 
@@ -279,58 +215,20 @@ Please note: the course instructor may from time to time adjust assigned reading
 
 ## Couse Schedule
 
-### Unit 1 - Regression Review
+### Unit 1 - Counterfactual Reasoning 
 
-**Regression Mechanics: Variance, Slopes and Residuals**
-- Using Regression Models to Estimate Program Effects&quot; Read 417-431, Skim 431-455
-- Lewis-Beck pp 9-25
-- Lab #1 – Regression Review
+### Unit 2 - Varieties of the Counterfactual 
 
-### Unit 2 - Effects: Size and Confidence 
+### Unit 3 - Campbell Scores 
 
-**Hypothesis Testing: Standard Errors, Confidence Intervals, and p-values**
-- Skim The New Statistics, CH3: Confidence Intervals; CH4: Error Bars and p-values.
-- Lewis-Beck pp 30-54
-- Lab #2 - Confidence Intervals
+### Unit 4 - Campbell Scores 
 
-### Unit 3 - Control Variables 
+### Unit 5 - Effect Size
 
-**Control Variables &amp; Partitioned Regressions**
-- Baily CH5: Section 5.1-Multivariate OLS
-- Lab #3 - Partitioned Regression
+### Unit 6 - Theories of Change 
 
-### Unit 4 - Omitted Variable Bias
+### Unit 7 - Work on Research Design Paper
 
-**Omitted Variable Bias**
-- Baily Section 5.2-Omitted Variable Bias
-- Lab #4 – Omitted Variable Bias
-
-Preview of Program Eval III:
-
-**Correcting Bias – Instrumental Variables and Fixed Effects**
-- Baily CH8: Fixed Effect Models; CH9 – Instrumental Variable Models
-
-### Unit 5 - Dummy Variables 
-
-**Model Specification**
-- Baily CH6: Dummy Variables; CH7: Transforming Variables
-- Lab #5 – Omitted Variable Bias
-
-### Unit 6 - Specification
-
-**Model Specification**
-- Baily CH7: Transforming Variables
-- Lab #6 – More Model Specification
-
-**Seven Sins of Regression Analysis** 
-- Readings posted on Course Shell
-
-### Unit 7
-
-**Review for Final**
-- Practice final exam 
-
-### Final Exam
 
 <br>
 <br>
