@@ -581,6 +581,25 @@ Report your findings on YellowDig with a link to the news story.
 
 <a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41395/assignments/1105458">YELLOWDIG</a>
 
+
+As an example, here is an excerpt from the story, **[Weed may not ease sleep problems, especially for regular users, studies say](https://www.cnn.com/2020/01/20/health/weed-sleep-debunk-wellness/index.html)**. 
+
+> To test that concept, Sznitman and her team analyzed the sleep patterns of 128 people aged 50 and older with chronic pain. Sixty-two of the subjects didn't use weed; the other 66 were marijuana users who used whole-plant based cannabis to ease their pain and help with sleep.
+> 
+> The study, published Monday in the journal BMJ Supportive & Palliative Care, found those who were using cannabis were less likely to report middle-of-the-night awakenings as compared to those who were not. No differences were found between the groups when it came to difficulties initiating sleep and waking too early.
+
+Is this an apples to appled comparison?
+
+Do we believe that people who voluntarily smoke marijuana (there was no assignment to groups, it is observational) are identical to those that do not in most ways except that one behavior???
+
+We know they are not because the article states: 
+
+> However, the survey found that when depression and anxiety levels were factored in, the differences disappeared. 
+
+What has to be true for a control variable to make an effect disappear? 
+
+
+
 <br>
 <br>
 
