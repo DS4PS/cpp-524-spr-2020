@@ -538,6 +538,57 @@ And submit via Canvas.
 
 ** Week 2 - Varieties of the Counterfactual  
 
+
+
+
+*** { @unit = "FRI Jan 24th", @title = "News Article Post", @assignment, @foldout }
+
+<br> 
+
+## Apples to Apples 
+
+Counterfactuals are simultaneously very intuitive and very challenging. 
+
+Most people intuitively understand them. How often do you hear the phrase: 
+
+> That's not an apples to apples comparison! 
+
+*There's even a board game based off of this expression.*
+
+On the other hand, it can be hard to tell whether a comparison is **REALLY** apples to apples. 
+
+## Hidden Counterfactuals
+
+This assignment is designed to help you be a more astute reader of research, or evidence-adjacent claims. For the sake of this class we will think of evidence primary in terms of claims of causality after some intervention occurred. 
+
+Ideally you don't listen to new scientific findings and immediately categorize it in your mind as TRUE or FALSE. Rather, the quality of research can be described as a spectrum, or perhaps a 10-point scale. 
+
+If you get really good at research design then you will start to consume news stories that make causal claims differently. When you hear a surprising or interesting finding the first question should be, how do we know this? What type of evidence do we have? 
+
+The best way to assess the quality of evidence is focusing on how the study created the counterfactual, and whether we believe it is a proper way to make inferences about the intervention described. 
+
+This is often quite challenging! Partly because it is challenging creating strong counterfactuals within a study. And partly because the media often does a poor job at describing research design while reporting on results. If it's published it must be true, right?  
+
+This short video presents lots of good examples from popular media where apples to oranges comparisons are used to provide evidence for a theory or position:  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_AXyeKbw3tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For your discussion this week, search through recent news stories until you find a story that is reporting on scientific work and making a claim. You can pull from whatever research you like, but limit studies to ones that look at topics that can be packaged as treatments (exercise prevents dimentia, people that drink coffee make more money, etc.). In other words, the recent support for string theory based upon data from the Hedron collider would be hard to package as an intervention. I recommend going to Google news and looking in the health or science sections. 
+
+Find a story reporting on research that was published in peer-reviewed academic outlets. From what you can find in the news story, can you tell whether the study used an apples to appled comparison? How much information do you have about the study group, and how much detail do they provide about the construction of a "treatment" group and a "comparison" group? 
+
+Report your findings on YellowDig with a link to the news story. 
+
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41395/assignments/1105458">YELLOWDIG</a>
+
+<br>
+<br>
+
+
+
+
+
+
 *** { @unit = "", @title = "Unit Overview", @reading }
 
 ## Description 
@@ -556,16 +607,6 @@ And submit via Canvas.
 
 <br>
 <br>
-
-
-
-
-*** { @unit = "FRI Jan 24th", @title = "News Article Post", @assignment }
-
-
-This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/219204">Start the Mini-Assessment</a>
 
 
 
