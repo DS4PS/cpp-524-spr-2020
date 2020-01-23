@@ -549,7 +549,7 @@ And submit via Canvas.
 
 Counterfactuals are simultaneously very intuitive and very challenging. 
 
-Most people intuitively understand them. How often do you hear the phrase: 
+Most people are familiar with the concept, if not the term. How often do you hear the phrase: 
 
 > That's not an apples to apples comparison! 
 
