@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PE4PS
 permalink: /pe4ps/
 ---
