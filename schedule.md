@@ -628,7 +628,8 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
 
   - Pre-study equivalence 
   - Tests for non-random attrition 
-  
+
+
 * **Varieties of the Counterfactual**
 
   - Pre-post with comparison 
