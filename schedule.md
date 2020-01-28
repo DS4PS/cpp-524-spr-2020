@@ -622,11 +622,14 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
 
 ## Lecture Materials
 
-* [Introduction to Counterfactuals](https://ds4ps.org/cpp-524-spr-2020/lectures/p-01-intro-to-counterfactuals.pdf/)
-* Testing the Counterfactual Validity
+* [**Introduction to Counterfactuals**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
+
+* **Testing the Counterfactual Validity**
+
   - Pre-study equivalence 
   - Tests for non-random attrition 
-* Varieties of the Counterfactual 
+  
+* **Varieties of the Counterfactual**
 
   - Pre-post with comparison 
     - e.g. difference-in-difference model 
@@ -641,7 +644,7 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
 
 **Required:**
 
-Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://journals.sagepub.com/doi/pdf/10.1177/1098214009354918?casa_token=dRJgq1yuD98AAAAA:YBXr1qZA3LQkYrrKnFKyBRh5CAQg0amjGWr1UZ2lTp5MZv0axWNrRe9SabH7BLdE3aLmN4s43bl3Sw) ]
+Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/conversation-with-tom-cook-and-michael-scriven.pdf) ]
 
 **Suggested:**
 
