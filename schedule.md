@@ -624,7 +624,7 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
 
 * [**Introduction to Counterfactuals**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
 
-* **Testing the Counterfactual Validity**
+* [**Testing the Counterfactual Validity**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf)
 
   - Pre-study equivalence 
   - Tests for non-random attrition 
