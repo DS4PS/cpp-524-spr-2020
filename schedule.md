@@ -608,22 +608,55 @@ What has to be true for a control variable to make an effect disappear?
 
 
 
-*** { @unit = "", @title = "Unit Overview", @reading }
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
 ## Description 
 
+This week introduces the notion of counterfactual reasoning using quasi-experimental design. 
 
 ## Learning Objectives
 
+* Be able to define and explain what is meant by "counterfactual reasoning" broadly. 
+* Explain the three primary counterfactuals in all statistics models. 
+* Apply the appropriate tests to determine whether the counterfactual is appropriate and robust. 
 
 ## Lecture Materials
+
+* [Introduction to Counterfactuals](https://ds4ps.org/cpp-524-spr-2020/lectures/p-01-intro-to-counterfactuals.pdf/)
+* Testing the Counterfactual Validity
+  - Pre-study equivalence 
+  - Tests for non-random attrition 
+* Varieties of the Counterfactual 
+
+  - Pre-post with comparison 
+    - e.g. difference-in-difference model 
+  - Post-test only 
+    - e.g. regression discontinuity design 
+    - e.g. matching 
+  - Reflexive 
+    - e.g. interrupted time series 
 
 
 ## Assigned and Recommended Articles or Chapters
 
+**Required:**
+
+Cook, T. D., Scriven, M., Coryn, C. L., & Evergreen, S. D. (2010). Contemporary thinking about causation in evaluation: A dialogue with Tom Cook and Michael Scriven. American Journal of Evaluation, 31(1), 105-117. [ [LINK](https://journals.sagepub.com/doi/pdf/10.1177/1098214009354918?casa_token=dRJgq1yuD98AAAAA:YBXr1qZA3LQkYrrKnFKyBRh5CAQg0amjGWr1UZ2lTp5MZv0axWNrRe9SabH7BLdE3aLmN4s43bl3Sw) ]
+
+**Suggested:**
+
+Skim: Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. (2016). *Impact evaluation in practice.* The World Bank.  
+* CH5 Regression Discontinuity Design   
+* CH6 Difference in Difference Models   
+* CH7 Matching   
+
+
 
 ## Key Take-Aways 
 
+We rarely have the resources or opportunity to utilize Randomized Control Trials (RCTs) in policy and management. There is a growing field of quasi-experimental methodologies that allow us to reproduce many of the features of RCTs to make strong causal claims when certain conditions are met. 
+
+
 <br>
 <br>
 
@@ -631,7 +664,7 @@ What has to be true for a control variable to make an effect disappear?
 
 
 
-*** { @unit = "TUES Jan 28th", @title = "Lab 02", @assignment }
+*** { @unit = "TUE Feb 4th", @title = "Lab 02", @assignment }
 
 
 <br>
