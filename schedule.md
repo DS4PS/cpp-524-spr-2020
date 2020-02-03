@@ -668,7 +668,7 @@ We rarely have the resources or opportunity to utilize Randomized Control Trials
 
 
 
-*** { @unit = "Combined w Lab 03", @title = "Lab 02", @assignment }
+*** { @unit = "", @title = "No lab this week", @assignment }
 
 
 <br>
@@ -727,7 +727,7 @@ After mastering Campbell Scores you will be able to:
 
 
 
-*** { @unit = "TUE Feb 11th", @title = "Lab 03", @assignment, @foldout  }
+*** { @unit = "TUE Feb 11th", @title = "LAB 02", @assignment, @foldout  }
 
 <br>
 
