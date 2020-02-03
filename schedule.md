@@ -668,7 +668,7 @@ We rarely have the resources or opportunity to utilize Randomized Control Trials
 
 
 
-*** { @unit = "TUE Feb 4th", @title = "Lab 02", @assignment }
+*** { @unit = "Combined w Lab 03", @title = "Lab 02", @assignment }
 
 
 <br>
@@ -698,38 +698,56 @@ When you are complete:
 
 ** Week 3 - Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @reading}
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
 
 ## Description 
 
+This unit introduces a fraemwork for evaluating the internal validity of a study using a 10-item "Campbell Score". 
 
 ## Learning Objectives
 
+After mastering Campbell Scores you will be able to:
 
-
-## Assigned and Recommended Articles or Chapters
-
-### Required:
-
+* Identify weaknesses in the design or implementation of evaluation studies that pose threats to internal validity and can possibly undermine the results. 
+* More efficiently read evaluation studies by knowing specific tests the author should present to make their case. 
+* Develop intuition about how to best design your own evaluation studies and how to package the description of your research design so that it is accessible to others. 
 
 
 ## Lecture Materials
 
+[Introduction to Counterfactuals](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
+
+[Tests for CF Validity](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf) 
+
+[The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
+
+[Campbell Scores Overview]()
 
 
 
 
 
-*** { @unit = "TUE Feb 4th", @title = "Lab 03", @assignment  }
-
+*** { @unit = "TUE Feb 11th", @title = "Lab 03", @assignment, @foldout  }
 
 <br>
-<br>
 
-# Lab 03
+# Lab 03 - Campbell Scores 
 
+This lab is a chance to practice an essential skill in evaluation - critical evaluation of research design to assess the strength of claims made by the study. 
 
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-03-instructions.html">Lab-03 Instructions</a>
+You will be reviewing the following chapters from *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.*:
+
+[CH7 Post-Test Only Estimator](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH7-hospital-follow-up-care.pdf)
+
+[CH8 Pre-Post with Comparison](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH8-energy-savings.pdf)
+
+[CH11 Reflexive Study Design](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH11-nutrition-behavior-change.pdf) 
+
+You will report the result for each item of the Campbell Score for each study and give your reasoning for the score on each item (a +1 if the threat to validity or competing hypothesis is adequately neutralized in the study, and +0 if the threat was not eliminated). Here are some example solutions based upon CH5 that you reviewed for the first lab.  
+
+[Example Solution](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/Campbell-Scores-CH5%20-SOLUTIONS.pdf)
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/campbell-score-instructions.pdf">Campbell Score Instructions</a>
 
 When you are complete:
 
