@@ -791,7 +791,7 @@ When you are complete:
 
 
 
-*** { @unit = "TUE Feb 11th", @title = "Lab 04", @assignment  }
+*** { @unit = "TUE Feb 18th", @title = "LAB 03", @assignment  }
 
 <br>
 <br>
@@ -838,7 +838,7 @@ When you are complete:
 
 
 
-*** { @unit = "TUE Feb 18th", @title = "Lab 05", @assignment }
+*** { @unit = "TUE Feb 25th", @title = "LAB 04", @assignment }
 
 
 <br>
@@ -891,7 +891,7 @@ When you are complete:
 
 
 
-*** { @unit = "TUE Feb 25th", @title = "Lab 06", @assignment }
+*** { @unit = "", @title = "No lab - work on paper", @assignment }
 
 <br>
 <br>
