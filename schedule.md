@@ -630,15 +630,12 @@ This week introduces the notion of counterfactual reasoning using quasi-experime
   - Tests for non-random attrition 
 
 
-* **Varieties of the Counterfactual**
+* [**Varieties of the Counterfactual**](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
 
-  - Pre-post with comparison 
-    - e.g. difference-in-difference model 
-  - Post-test only 
-    - e.g. regression discontinuity design 
-    - e.g. matching 
-  - Reflexive 
-    - e.g. interrupted time series 
+  - Pre-post with comparison group design 
+    - difference-in-difference model  
+  - Post-test only design 
+  - Reflexive design 
 
 
 ## Assigned and Recommended Articles or Chapters
@@ -722,11 +719,16 @@ After mastering Campbell Scores you will be able to:
 
 ## Lecture Materials
 
+
+### From Last Week 
+
 [Introduction to Counterfactuals](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
 
 [Tests for CF Validity](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf) 
 
 [The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
+
+### New This Week 
 
 [Campbell Scores Overview](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-07-campbell-scores-v2.pdf)
 
