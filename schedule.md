@@ -698,7 +698,7 @@ When you are complete:
 
 ** Week 3 - Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
+*** { @unit = "", @title = "Unit Overview", @foldout}
 
 ## Description 
 
@@ -712,6 +712,13 @@ After mastering Campbell Scores you will be able to:
 * More efficiently read evaluation studies by knowing specific tests the author should present to make their case. 
 * Develop intuition about how to best design your own evaluation studies and how to package the description of your research design so that it is accessible to others. 
 
+<br>
+<br>
+
+*** { @unit = "", @title = "Lecture Notes", @reading, @foldout  }
+
+<br>
+<br>
 
 ## Lecture Materials
 
@@ -721,10 +728,12 @@ After mastering Campbell Scores you will be able to:
 
 [The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
 
-[Campbell Scores Overview]()
+[Campbell Scores Overview](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-07-campbell-scores-v2.pdf)
 
+[Campbell Scores Examples](https://ds4ps.org/cpp-524-spr-2020/lectures/CampbellScore.html)
 
-
+<br>
+<br>
 
 
 *** { @unit = "TUE Feb 11th", @title = "LAB 02", @assignment, @foldout  }
