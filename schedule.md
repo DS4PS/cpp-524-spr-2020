@@ -698,7 +698,7 @@ When you are complete:
 
 ** Week 3 - Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @reading, @foldout}
+*** { @unit = "", @title = "Unit Overview", @foldout}
 
 ## Description 
 
@@ -715,7 +715,7 @@ After mastering Campbell Scores you will be able to:
 <br>
 <br>
 
-*** { @unit = "", @title = "Lecture Notes", @readings, @foldout  }
+*** { @unit = "", @title = "Lecture Notes", @reading, @foldout  }
 
 <br>
 <br>
