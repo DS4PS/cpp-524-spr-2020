@@ -779,7 +779,7 @@ When you are complete:
 
 ** Week 4 - More Campbell Scores 
 
-*** { @unit = "", @title = "Unit Overview", @reading }
+*** { @unit = "", @title = "Unit Overview", @reading, @foldout }
 
 ## Description 
 
@@ -807,7 +807,7 @@ Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation
 
 
 
-*** { @unit = "FRI Feb 21st", @title = "LAB 03", @assignment  }
+*** { @unit = "FRI Feb 21st", @title = "LAB 03", @assignment, @foldout  }
 
 <br>
 <br>
