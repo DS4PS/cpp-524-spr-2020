@@ -783,34 +783,53 @@ When you are complete:
 
 ## Description 
 
+This week you will continue with your critical assessment of research design to assess internal validity in the case studies using the Campbell Scores framework. 
 
-## Learning Objectives
-
-
-## Assigned and Recommended Articles or Chapters
-
-### Required:
 
 
 ## Lecture Materials
 
+There are no new lecture materials. But these exercises will again draw from the notes on counterfactual reasoning and Campbell Score rules:
+
+* [Introduction to Counterfactuals](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-01-intro-to-counterfactuals.pdf)
+* [Tests for CF Validity](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-02-tests-for-cf-validity.pdf) 
+* [The Three Counterfactual Estimators](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-03-varieties-of-counterfactuals.pdf)
+* [Campbell Scores Overview](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/lectures/p-07-campbell-scores-v2.pdf)
+* [Campbell Scores Examples](https://ds4ps.org/cpp-524-spr-2020/lectures/CampbellScore.html)
 
 
-
-
-
-
-
-
-*** { @unit = "TUE Feb 18th", @title = "LAB 03", @assignment  }
+Case studies will again be from *Bingham, R., & Felbinger, C. (2002). Evaluation in practice: A methodological approach. CQ Press.*
 
 <br>
 <br>
 
-# Lab 04
 
 
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-04-instructions.html">Lab-04 Instructions</a>
+
+
+*** { @unit = "FRI Feb 21st", @title = "LAB 03", @assignment  }
+
+<br>
+<br>
+
+# Lab 03
+
+For this lab you will again apply Campbell Scores to two more chapters, but this time both chapters are using the same data to answer the same research question. This is a nice case study because it shows how two groups of skilled researchers can make different choices about how to analyze data, and as a result arrive at different conclusions about program effectiveness. 
+
+[Evaluation of School Choice Program](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/pubs/eval-in-practice-CH20-CH21-school-choice.pdf)  
+
+The last two chapters present a bit of a riddle. You have two studies evaluating the exact same program using the same data, but they come to different conclusions (CH20 concludes that the program is ineffective, CH21 concludes it is effective). So how do the studies differ? 
+
+CH21 uses a strong counter-factual whereas CH20 uses a weak comparison group. This itself could account for the difference in results.
+But more importantly, each chapter uses a different calculation for the program effects (recall the choices are pre-post reflexive designs, post-test only comparisons, and the difference-in-difference estimates). **If you can figure out how the authors are calculating program effects, you will have much better insight into why the conclusions diverge.**
+
+There is a lot of material in CH20, so focus on **Tables 10A-10D** and the **regression models in 11A and 11B**.
+
+Also, **what are the time-frames used for analysis in each chapter**? Be careful about how you define time-frame in this assignment. In these chapters, the time-frame is a function of how the authors are calculating program effects more than the period over which data was collected. 
+
+Here is the hint: if a study collects data over four years but then only uses data from one of the years for analysis, what would the time frame of the study be, four years or one?
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/campbell-score-instructions.pdf">Campbell Score Instructions</a>
 
 When you are complete:
 
