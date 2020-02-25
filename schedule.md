@@ -843,7 +843,7 @@ When you are complete:
 
 
 
-** Week 5 - Effect Sizes 
+** Week 5 - Work on Campbell Score Studies
 
 *** { @unit = "", @title = "Unit Overview", @reading  }
 
@@ -868,20 +868,16 @@ When you are complete:
 
 
 
-*** { @unit = "TUE Feb 25th", @title = "LAB 04", @assignment }
+*** { @unit = "", @title = "LAB 04", @assignment, @foldout }
 
 
 <br>
 <br>
 
-# Lab 05
+# Lab 04
 
+Lab 04 on effect sizes is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on March 2nd under the Week 7 tab for details. 
 
-<a class="uk-button uk-button-default" href="https://ds4ps.org/cpp-523-fall-2019/labs/lab-05-instructions.html">Lab-05 Instructions</a>
-
-When you are complete:
-
-<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
 
 <br>
 <br>
@@ -897,7 +893,7 @@ When you are complete:
 
 
 
-** Week 6 - Theory of Change 
+** Week 6 - Theory of Change and Effect Size
 
 *** { @unit = "", @title = "Unit Overview", @reading  }
 
@@ -950,10 +946,21 @@ When you are complete:
 
 
 
-*** { @unit = "", @title = "Review", @lecture }
+*** { @unit = "", @title = "Overview", @foldout }
 
 <br>
 
+## Final Projects
+
+You have two final assignments for the class. The most important one is the hypothetical research design described under the **Research Design Paper** assignment. You will be asked to serve as an outside expert to help an evaluation team architect a valid and robust impact study of one of their programs. 
+
+The **Final Lab** will consist of as assessment of the size of the gender pay gap in the nonprofit sector. You will be asked to run three models, all estimating the pay gap. You then need to explain the weaknesses of each model using content fro this term, and make a case for which model you belive to be the least biased and most accurate representation of the true pay gap in the nonprofit sector. 
+
+See the instruction for details. 
+
+## Office Hours
+
+I will be availble throughout the week for appointments. I would encourage you to read the the assignment instructions and set up a time if you have any clarifying questions, or you want feedback on the program you wuld like to work with. 
 
 <br>
 <br>
@@ -963,7 +970,7 @@ When you are complete:
 
 
 
-*** { @unit = "MON Mar 2nd", @title = "Quiz", @assignment }
+*** { @unit = "MON Mar 2nd", @title = "Final Lab", @assignment, @foldout }
 
 <br>
 <br>
@@ -980,11 +987,22 @@ When you are complete:
 <br>
 <br>
 
+## Instructions
+
+[Assignment Instructions](https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/final-paper-instructions.pdf)
+
+<br>
+
+My main advice is to keep the program model simple! Choose a well-established program that has a clear goal, a clear scope, and where you expect to achieve impact in a relatively short time frame (a few years). The point of the assignment is to practice thinking through and communicating important evaluation considerations. If you select a complicated program that has poorly-defined goals and has a complex implementation environment it will be difficult to tell whether things are not clear because you do not understand the program or you do not understand the material. So keep the program model very simple, if possible. If can be a small part of a larger program as well. 
+
+By the time you are done writing up details you will likely have 10 to 20 pages of text (double-spaced). 
 
 
 <br>
-<br>
 
+### Submit Your Paper
+
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Your Paper</a>
 
 
 <br>
