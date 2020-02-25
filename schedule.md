@@ -970,7 +970,7 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "MON Mar 2nd", @title = "Final Lab", @assignment, @foldout }
+*** { @unit = "MON Mar 2nd", @title = "Final Lab", @assignment }
 
 <br>
 <br>
@@ -982,7 +982,7 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "TUE Mar 3rd", @title = "Research Design Paper", @assignment }
+*** { @unit = "TUE Mar 3rd", @title = "Research Design Paper", @assignment, @foldout }
 
 <br>
 <br>
