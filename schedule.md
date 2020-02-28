@@ -893,24 +893,9 @@ Lab 04 on effect sizes is being combined with an evaluation regression exercise 
 
 
 
-** Week 6 - Theory of Change and Effect Size
-
-*** { @unit = "", @title = "Unit Overview", @reading  }
-
-<br>
-<br>
-
-## Description 
-
-## Learning Objectives
-
-## Lecture Materials
-
-## Lab Preview 
+** Week 6 - Intermission
 
 
-<br>
-<br>
 
 
 
