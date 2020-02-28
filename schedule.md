@@ -970,11 +970,21 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 
 
-*** { @unit = "MON Mar 2nd", @title = "Final Lab", @assignment }
+*** { @unit = "TUES Mar 3rd", @title = "Final Lab", @assignment, @foldout }
 
 <br>
 <br>
 
+## Incorporating Research Design Principles into Models 
+
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-05 Instructions</a>
+
+You can find the data for the lab here: 
+
+```r
+URL <- "https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/labs/data/np-comp-data.csv"
+dat <- read.csv( URL, stringsAsFactors=F )
+```
 
 <br>
 <br>
