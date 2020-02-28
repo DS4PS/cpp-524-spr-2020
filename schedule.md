@@ -973,6 +973,10 @@ URL <- "https://raw.githubusercontent.com/DS4PS/cpp-524-spr-2020/master/labs/dat
 dat <- read.csv( URL, stringsAsFactors=F )
 ```
 
+You might find it helpful to review the use of dummy variables in regression models: 
+
+[DUMMY VARIABLES](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf)
+
 <br>
 <br>
 
