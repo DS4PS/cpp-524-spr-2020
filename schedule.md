@@ -876,7 +876,7 @@ When you are complete:
 
 # Lab 04
 
-Lab 04 on effect sizes is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on March 2nd under the Week 7 tab for details. 
+Lab 04 is being combined with an evaluation regression exercise in place of a quiz for the semester. See the **Final Lab** due on March 3rd under the Week 7 tab for details. 
 
 
 <br>
@@ -959,6 +959,8 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 <br>
 <br>
+
+This final lab is in place of a quiz for the semester. It asks you to estimate the gender pay gap of nonprofit executive directors using two different models. The key insight is being able to determine which of the three estimators you are using in each regression model (reflexive, post-test only, or pre-post with comparison). You will see that the pay gap will change when you change the estimator. The goal is to try and determine which estimate is the best and most unbiased measure for the gender pay gap. 
 
 ## Incorporating Research Design Principles into Models 
 
