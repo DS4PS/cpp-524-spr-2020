@@ -962,7 +962,7 @@ I will be availble throughout the week for appointments. I would encourage you t
 
 ## Incorporating Research Design Principles into Models 
 
-<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-05 Instructions</a>
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-524-spr-2020/raw/master/labs/specification-lab-gender-pay-gap.pdf">Lab-04 Instructions</a>
 
 You can find the data for the lab here: 
 
