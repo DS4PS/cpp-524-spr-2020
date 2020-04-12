@@ -482,7 +482,7 @@ Similarly, a larger effect size is always better. If you have a very large effec
 * 0.5 is a moderate-sized effect 
 * 0.8 is a large effect  
 
-These heuristics vary by the type of study, though: 
+These heuristics on magnitude vary by the type of statistical model (and thus the statistic used to report effect size):
 
 [Effect Size Magnitude by Statistic](http://imaging.mrc-cbu.cam.ac.uk/statswiki/FAQ/effectSize)
 
