@@ -457,6 +457,41 @@ We must convert our counterfactual view of the world into a meaningful null hypo
 More generally we need to think about what patterns in data we expect to see if the program is having an impact, and what patterns we expect to see if it is not. Having these things in mind will help you identify the best models that capture your research question most precisely. 
 
 
+
+<br>
+<br>
+
+
+*** { @unit = "", @title = "Statistical Power", @reading, @foldout  }
+
+<br>
+
+## Statistical Power Calculator
+
+[The NHST (Null Hypothesis Statistical Test) Ritual](https://rpsychologist.com/d3/NHST/)
+
+* alpha, the criteria used for rejecting the null (0.05) predicts the rate of Type I Errors in repeated samples 
+* beta ( 1 - power ) predicts the rate of Type II Errors in repeated samples 
+* effect size for a t-test (Cohen's d) tells you the distance between the observed population mean and the null 
+
+Note that increasing the sample size is unambiguously good in that it lowers Type I and Type II Errors, though there are always real economic costs of the sample in a study. 
+
+Similarly, a larger effect size is always better. If you have a very large effect it is easy to detect statistically even with a small sample. As a rule of thumb when looking at Cohen's d in t-tests: 
+
+* 0.2 is a small effect 
+* 0.5 is a moderate-sized effect 
+* 0.8 is a large effect  
+
+These heuristics vary by the type of study, though: 
+
+[Effect Size Magnitude by Statistic](http://imaging.mrc-cbu.cam.ac.uk/statswiki/FAQ/effectSize)
+
+You determine the effect size for a power calculation by looking at previous research in the domain and using reported statistics to calculate the effect size, or if you are lucky a published meta-analysis will have done this for you already for a lot of studies and you can use the average effect size reported. 
+
+When Type I Error appears as 0% it just means it is less than 0.005 and the dashboard rounds the value (it is never actually zero). 
+
+Most studies use an alpha of 0.05 and beta of 0.80 because these values balance the trade-off between the two error rates. If one type of error is more costly in your context consider adjusting these while doing a power calculation. 
+
 <br>
 <br>
 
@@ -485,6 +520,10 @@ We will use a check-list approach that we call a **Campbell Score**, which is a 
 
 <br>
 <br>
+
+
+
+
 
 
 
