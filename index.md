@@ -41,7 +41,7 @@ textbooks:
 - title: 'Impact Evaluation in Practice'
   authors: 'Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., & Vermeersch, C. M. J.'
   edition: Second (2016)
-  link: 'https://github.com/DS4PS/cpp-523-sum-2020/raw/master/pubs/Impact_Evaluation_in_Practice%20WB%20full%20text%20second%20edition.pdf'
+  link: 'https://openknowledge.worldbank.org/handle/10986/25030'
   required: Free online
  
 --- 
